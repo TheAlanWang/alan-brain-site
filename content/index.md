@@ -1,10 +1,10 @@
 ---
-title: Brain-Site
+title: Brain Site
 ---
 
 # 👋 Hi, I'm Alan
 
-Welcome to **Alan’s Brain** — my public knowledge system.
+Welcome to my knowledge system.
 
 ## 🧠 What is this site?
 This is my **digital brain** — built from my **Obsidian notes** and published using **Quartz**.

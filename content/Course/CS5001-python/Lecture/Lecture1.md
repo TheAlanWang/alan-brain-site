@@ -51,7 +51,7 @@ ADD AX, 3 ; Add 3 to the value in AX
 - **Def:** a step-by-step procedure or set of rules used to perform a specific task or solve a particular problem. It is a well-defined sequence of instructions that are executed in order to achieve a desired outcome.
 
 ### Flow Charts
-![[Pic_Screenshot 2025-01-09 at 10.09.57 AM.png|200]]
+![[simpleflowchart2025-01-09 at 10.09.57 AM.png|200]]
 
 ## Variable Naming Conversion
 - Camel Case
