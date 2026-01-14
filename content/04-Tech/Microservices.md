@@ -1,4 +1,4 @@
-**Microservices** is an architecture where you build an application as many small, independent services.
+**Microservices** is an architecture where you build an application as many small, **independent** services.
 ### Why choose microservices over a monolith?
 Microservices fit systems that need to **evolve** and **scale**. By splitting the application into small, cohesive services, teams can **deploy independently** and **scale only the bottleneck service** instead of scaling the entire system.
 
