@@ -1,3 +1,8 @@
+---
+tags:
+  - algorithm/sort
+---
+
 Quick sort is a [[00-Sorting Overview#Stable vs Unstable|unstable]] sorting algorithm. 
 ### Key idea
 - Pick a pivot and partition the array. 
