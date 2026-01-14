@@ -1,3 +1,6 @@
+---
+title: Sorting Overview
+---
 ### Stable vs Unstable
 - Stable: If two elements have the **same key**, their **relative order stays the same** after sorting.
 - Unstable: If two elements have the **same key**, their **relative order may change** after sorting.
