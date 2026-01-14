@@ -12,5 +12,5 @@ replit.nix
 
 # lecture slides ignore
 **/Lecture_slides/
-**/CS6650-Distributed_Systems/
+**/CS6650-Distributed_System/
 **/CS6120-NLP/
