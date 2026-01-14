@@ -3,12 +3,8 @@ tags:
   - neu/CS5002
 description: quantifier
 date: 2025-01-23
-pageorder: 5
+weight: 5
 ---
-
-> Date: 2025 Jan 23
-> Tags: #python 
-
 type the universal quantifier(∀\for all) or the existential quantifier (∃\exists)
 ### Quantifier `∀` `∃`
 `∀`: for all
@@ -43,10 +39,14 @@ $$method1: ∀x\;P(x)=True$$
 $$So: P(-1)=P(0)=P(1)=P(2)=P(3)...=True$$
 
 $$method2:∀x\;Q(x)=True$$
+
 $$So:Q(1)=Q(2)=Q(3)...=True$$
 
 $$method1∧method2=P(1)∧Q(1)≡P(2)∧Q(2)≡True$$
-$$method1∧method2=P(x) ∧ Q(x)≡True$$$$≡∀x(\;P(x) ∧ Q(x)\;)$$
+
+$$method1∧method2=P(x) ∧ Q(x)≡True$$
+
+$$≡∀x(\;P(x) ∧ Q(x)\;)$$
 #### Order Matters
 ###### Equation 1
 $$∀x\;∃y\;(x+y)=0$$

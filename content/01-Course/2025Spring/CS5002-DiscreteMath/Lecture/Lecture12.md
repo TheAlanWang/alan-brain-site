@@ -2,7 +2,7 @@
 tags:
   - neu/CS5002
 description: Baye Theorem
-pageorder: 12
+weight: 12
 link: "[[CS5002note12_0220.pdf]]"
 ---
 

@@ -2,7 +2,7 @@
 date: 2025-01-15
 tags:
   - neu/CS5001
-pageorder: 2
+weight: 2
 link:
   - "[[CS5001Slides2.pdf]]"
   - "[[CS5001Lab2.pdf]]"

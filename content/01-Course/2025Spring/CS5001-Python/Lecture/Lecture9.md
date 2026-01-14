@@ -2,7 +2,7 @@
 date: 2025-04-02
 tags:
   - neu/CS5001
-pageorder: 9
+weight: 9
 description: tree, O notation, bfs
 link:
   - "[[CS5001Lab11.pdf]]"

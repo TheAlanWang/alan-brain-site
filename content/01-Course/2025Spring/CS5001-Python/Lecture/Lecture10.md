@@ -2,7 +2,7 @@
 date: 2025-04-09
 tags:
   - neu/CS5001
-pageorder: 10
+weight: 10
 link:
   - "[[CS5001Lab12.pdf]]"
 description: Big O notation, linear search

@@ -2,9 +2,8 @@
 tags:
   - neu/CS5002
 date: 2025-03-28
-pageorder: 17
+weight: 17
 ---
-
 ## Lecture 17: Induction
 
 **Statement:**

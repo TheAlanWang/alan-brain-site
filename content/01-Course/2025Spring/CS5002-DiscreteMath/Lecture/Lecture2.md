@@ -1,7 +1,7 @@
 ---
 tags:
   - neu/CS5002
-pageorder: 2
+weight: 2
 date: 2025-01-09
 ---
 Have Homework

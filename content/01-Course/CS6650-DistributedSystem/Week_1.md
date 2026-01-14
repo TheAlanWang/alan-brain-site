@@ -4,23 +4,11 @@ weight: "1"
 ---
 # CS6650 Building Scalable Distributed Systems
 
-**Instructor**: [Aditya Mishra.Links to an external site.](https://ask-prof-a.github.io/)
+**Instructor**: [Aditya Mishra](https://ask-prof-a.github.io/)
 
 Text Book: [Foundations of Scalable Systems](https://www.oreilly.com/library/view/foundations-of-scalable/9781098106058/preface01.html#what_you_will_learn)
 
 Foundations of Scalable Systems: Designing Distributed Architectures
-
-- 65% Homework: Java
-- 6% Labs
-- 25% two exams
-	- 10% take home (**Feb 26**)
-	- 15% (**Apr 23**)
-- 4% attendance
-
-TA: yang.song@northeastern.edu
-- Wed 10-11:30pm
-- Friday 1:00-2:30
-
 # Introduction
 ## What is Scalability?
 Definition: The ability of system to increase or decrease capacity in response to changing demands, while satisfying **SLA** for latency and availability.
@@ -116,3 +104,15 @@ Cons
 	• Additional complexity
 	• Very slight reduction in performance, perhaps 2%
 	• Occasional sneaky security problems (Specter/Meltdown)
+
+---
+- 65% Homework: Java
+- 6% Labs
+- 25% two exams
+	- 10% take home (**Feb 26**)
+	- 15% (**Apr 23**)
+- 4% attendance
+
+TA: yang.song@northeastern.edu
+- Wed 10-11:30pm
+- Friday 1:00-2:30

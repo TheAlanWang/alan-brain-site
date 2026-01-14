@@ -2,7 +2,7 @@
 tags:
   - neu/CS5002
 description: permutation
-pageorder: 10
+weight: 10
 ---
 
 > Date: Feb 10 2025, Monday

@@ -3,7 +3,7 @@ date: 2025-01-22
 tags:
   - neu/CS5001
 description: stack
-pageorder: 3
+weight: 3
 link:
   - "[[CS5001Slides3.pdf]]"
   - "[[CS5001Lab3.pdf]]"

@@ -3,7 +3,7 @@ tags:
   - neu/CS5001
 date: 2025-02-19
 description: error, set, hash
-pageorder: 7
+weight: 7
 link:
   - "[[CS5001Slides7.pdf]]"
   - "[[CS5001Lab7.pdf]]"

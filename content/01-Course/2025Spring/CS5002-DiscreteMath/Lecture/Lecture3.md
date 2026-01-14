@@ -3,7 +3,7 @@ tags:
   - neu/CS5002
 date: 2025-01-13
 description: two's complements
-pageorder: 3
+weight: 3
 ---
 ### Two's complements
 ![[Two's Complements]]

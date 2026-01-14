@@ -3,7 +3,7 @@ tags:
   - neu/CS5002
 description: sets
 date: 2025-01-27
-pageorder: 6
+weight: 6
 ---
 
 > Date: Jan 27 2025

@@ -3,7 +3,7 @@ date: 2025-01-08
 description: flow chart
 tags:
   - neu/CS5001
-pageorder: 1
+weight: 1
 link:
   - "[[CS5001Slides1.pdf]]"
   -  [[CS5001Lab1.pdf]]

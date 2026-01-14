@@ -2,7 +2,7 @@
 tags:
   - neu/CS5002
 description: combination
-pageorder: 11
+weight: 11
 ---
 ## Review:
 ### Permutation: 

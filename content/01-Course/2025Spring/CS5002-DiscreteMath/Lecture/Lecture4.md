@@ -3,7 +3,7 @@ tags:
   - neu/CS5002
 description: truth table
 date: 2025-01-16
-pageorder: 4
+weight: 4
 ---
 ### Truth table
 
