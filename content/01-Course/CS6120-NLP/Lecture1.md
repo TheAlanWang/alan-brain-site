@@ -1,0 +1,23 @@
+pre-request: Machine Learning/ Deep learning/ Algorithms
+
+- 80% of modern paper
+
+toolboxes: pyTorch, Tensorflow or common Python
+
+- keynote paper
+- homework
+- lab
+
+cloud: gcp
+
+The RAG system, look database can get back
+
+- Linear Algebra
+- Multivaraite calc
+- Intro to TF/Keras
+- Into to Language Modeling
+
+**PyTorch** is an open-source **deep learning framework**
+
+- 5 quizes
+- 
