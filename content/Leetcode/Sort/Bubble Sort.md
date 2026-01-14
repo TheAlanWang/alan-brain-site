@@ -1,5 +1,9 @@
-### Key idea:
-Bubble sort is a stable sorting algorithm. 
+---
+tags:
+  - algorithm/sort
+---
+### Key idea
+Bubble sort is a [[00-Sorting Overview#Stable vs Unstable|stable]] sorting algorithm. 
 - It repeatedly sweeps through the list, comparing and swapping **adjacent** elements if needed. 
 - After each full pass, the **largest element** will be at the end, so the next pass only needs to consider one **fewer** element. 
 

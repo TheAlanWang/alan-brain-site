@@ -1,5 +1,5 @@
 ---
-title: Brain Site
+title: Welcome to Alan's Brain Site
 ---
 
 # 👋 Hi, I'm Alan
