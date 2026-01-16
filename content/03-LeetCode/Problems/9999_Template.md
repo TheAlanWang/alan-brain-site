@@ -1,12 +1,12 @@
 ---
 tags:
-  - algorithm
+  - ds
 ---
 # Question
 Link: 
 ### Restate the problem
 # Method
-### Key Idea: 
+### Key Approach: 
 
 ### Complexity
 
@@ -15,3 +15,6 @@ Link:
 ### Code        
 ```python
 ```
+
+---
+# History
