@@ -6,7 +6,7 @@ tags:
 Link: 
 ### Restate the problem
 # Method
-### Key Approach: 
+### Key Approach
 
 ### Complexity
 
