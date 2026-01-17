@@ -2,11 +2,12 @@
 tags:
   - ds
 ---
-# Question
 Link: 
+Track: NeetCode150
+# Question
 ### Restate the problem
 # Method
-### Key Approach
+### Approach
 
 ### Complexity
 
