@@ -11,8 +11,6 @@
 - (e.g., HTTP/HTTPS, DNS, FTP, SMTP)
 
 Application layer → Transport (TCP, UDP) layer →Internet (IP) layer → Data link layer
-
-
 ### TCP VS USP (Transport layer)
 | Feature            | TCP (Transmission Control Protocol)                                                 | UDP (User Datagram Protocol)                                          |
 | ------------------ | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -22,8 +20,9 @@ Application layer → Transport (TCP, UDP) layer →Internet (IP) layer → Data
 | Overhead           | Higher overhead; prioritizes reliability                                            | Lower overhead; lightweight and often lower latency                   |
 | Typical use cases  | File transfer, email, web documents (HTTP/1.1, HTTP/2)                              | Streaming media, video calls, online games (and QUIC/HTTP/3 over UDP) |
 
-#### Encapsulation and Delivery (TCP/IP Model)
-##### Data Units by Layer
+---
+### Encapsulation and Delivery (TCP/IP Model)
+#### Data Units by Layer
 App message → TCP segment / UDP datagram → IP packet → frame
 - **Application:** message (e.g., HTTP, DNS)
 - **Transport:**
@@ -31,10 +30,10 @@ App message → TCP segment / UDP datagram → IP packet → frame
     - **UDP:** UDP datagram (message-oriented; best-effort)
 - **Internet:** **IP packet**
 - **Link:** frame (per hop)
-##### TCP Path (Reliable, ordered byte stream)
+#### TCP Path (Reliable, ordered byte stream)
 TCP (Transmission Control Protocol)
 1. Application creates a **message**.
-2. TCP treats data as a **byte stream** and **segments** it (often sized by **MSS**).
+2. TCP treats data as a **byte stream** and **segments** it (often sized by MSS).
 3. Each TCP segment is encapsulated into an IP packet.
 4. On each hop, the IP packet is carried inside a **link-layer frame** (MAC addresses change per hop).
 5. At the destination:
@@ -42,7 +41,7 @@ TCP (Transmission Control Protocol)
     - TCP **reassembles**, ensures **reliability + ordering** (retransmissions if needed), then delivers bytes to the application.
 
 **Key idea:** Routers forward **IP packets**; reliability/ordering is **end-to-end (TCP)**, not done by routers.
-##### UDP Path (Best-effort message delivery)
+#### UDP Path (Best-effort message delivery)
 UDP (User Datagram Protocol)
 1. Application creates a **message**.
 2. UDP wraps it into a **UDP datagram** (no retransmission/ordering guarantees).
@@ -54,6 +53,7 @@ UDP (User Datagram Protocol)
 
 **Key idea:** UDP keeps transport simple; apps must tolerate loss (or implement reliability at the app layer, e.g., QUIC over UDP).
 
+---
 ## TCP Connection Establishment
 ### three-way handshake
 1) Client → Server: SYN
