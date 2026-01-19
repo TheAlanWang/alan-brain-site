@@ -6,6 +6,14 @@ brew install awscli
 ```
 
 ## Configure AWS CLI
+
+Create ECR repo 
+→ Build & Push image to ECR 
+→ Create ECS Cluster (Fargate) 
+→ Create ECS Task Definition (Fargate, reference ECR image)
+→ Run Task / Service on ECS Cluster using Fargate
+→ Fargate pulls image from ECR and runs the container
+
 ### Step 1: Copy AWS credential to computer
 ```
 ~/.aws/credentials
@@ -25,7 +33,26 @@ nano ~/.aws/credentials
 cat ~/.aws/credentials
 ```
 
-### Step 2: create ECR Repository in AWS
+### ### Step 2: Create an ECR Repository
+1. **Navigate to Amazon ECR:**
+   - Go to AWS Console (from Learner Lab)
+   - Search for "ECR" in the top search bar
+   - Click on "Elastic Container Registry"
+
+2. **Create Repository:**
+   - Click **"Create repository"**
+   - **Visibility settings**: Private (default)
+   - **Repository name**: `hello-service`
+   - **Image tag mutability**: Mutable (default)
+   - **Scan on push**: Disabled (for this lab)
+   - **Encryption**: Default (AES-256)
+   - Click **"Create"**
+
+3. **Copy the Repository URI:**
+   - After creation, you'll see your repository
+   - Copy the URI (looks like: `123456789012.dkr.ecr.us-east-1.amazonaws.com/hello-service`)
+   - Save this for the next step
+#### Getting ECR URL via AWS CLI
 ECR (Elastic Container Registry)
 URI（Uniform Resource Identifier）
 ```bash

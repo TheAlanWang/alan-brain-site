@@ -1,0 +1,43 @@
+---
+tags:
+  - ds/hashmap
+---
+Link: [1. Two Sum](https://leetcode.com/problems/two-sum/)
+Track: NeetCode150
+# Question
+### Restate the problem
+Given an integer array `nums` and an integer `target`, return the **indices of the two numbers** such that their sum equals `target`.
+- Each input has exactly one solution
+- You may not use the same element twice
+# Method
+### Approach - Hashmap
+We iterate through the array once while maintaining a hash map that stores each number and its index.
+
+For each number `x`:
+1. Compute its complement: `target - x`
+2. If the complement already exists in the hash map, we have found the solution:
+    - Return the stored index of the complement and the current index    
+3. Otherwise, store the current number and its index in the map
+    
+This ensures we find the pair in a single pass.
+
+### Complexity
+- Time complexity: O(n)
+- Space complexity: O(n)
+### Edge Case
+- Negative numbers
+- Duplicate values
+### Code        
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dic = {}
+        for idx, num in enumerate(nums):
+            if target - num in dic:
+                return [dic[target - num], idx]
+            
+            dic[num] = idx
+```
+
+---
+# History
