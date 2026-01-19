@@ -351,7 +351,7 @@ npm install axios
 
 ## 15) Next steps (recommended learning path)
 
-1. React basics: components, props, state, effects
+1. [[React Components, Props, State, Effects Guide]]
 2. Next.js routing + layouts
 3. Client vs server components
 4. Fetch patterns + error handling

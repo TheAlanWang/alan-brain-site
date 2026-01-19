@@ -6,8 +6,14 @@ Link:
 Track: NeetCode150
 # Question
 ### Restate the problem
-# Method
+
+---
+
+Method 1
+Method 2
+## Method
 ### Approach
+(discussed at lease two approach?)
 
 ### Complexity
 

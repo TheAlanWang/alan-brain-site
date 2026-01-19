@@ -1,4 +1,4 @@
-# Next.js Guide (English) — Practical, App Router First
+# Next.js Guide — Practical, App Router First
 
 This guide focuses on **Next.js (App Router)** and the React concepts you’ll actually use when building a real app (e.g., a PDF assistant with a FastAPI backend).
 
@@ -58,9 +58,7 @@ my-app/
 ---
 
 ## 3) Routing (file-based)
-
 In App Router, folders map to routes:
-
 ```
 app/page.tsx                 -> /
 app/about/page.tsx           -> /about
@@ -68,7 +66,6 @@ app/dashboard/page.tsx       -> /dashboard
 ```
 
 ### Dynamic routes
-
 ```
 app/users/[id]/page.tsx      -> /users/123
 ```
@@ -85,7 +82,6 @@ export default function UserPage({ params }: Props) {
 ---
 
 ## 4) Layouts and shared UI
-
 `app/layout.tsx` wraps all pages. Great for navbar/footer/global styles.
 
 Example:
@@ -107,7 +103,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 ---
 
 ## 5) Server Components vs Client Components (IMPORTANT)
-
 ### Server Components (default)
 - Run on the **server**
 - Can fetch data securely
@@ -196,7 +191,6 @@ Important:
 ## 8) Connect Next.js frontend to FastAPI backend
 
 You have two common setups:
-
 ### Option A: Browser calls FastAPI directly (simple)
 - Next.js runs on `http://localhost:3000`
 - FastAPI runs on `http://localhost:8000`
@@ -334,7 +328,7 @@ npm install axios
 
 ## 12) Suggested learning path (fast)
 
-1. React: components, props, state, events
+1. React: components, props, state, events [[React Components, Props, State, Effects Guide]]
 2. Next.js routing + layouts
 3. Client vs Server Components
 4. Fetching data + error handling
