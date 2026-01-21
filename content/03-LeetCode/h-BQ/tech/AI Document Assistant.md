@@ -7,7 +7,7 @@ I’m drawn to Adobe because it combines creativity and technology. The company 
 
 From my personal perspective, I worked closely with Adobe Acrobat in my previous role. And, recently tried Acrobat Studio incredibly, which I found useful and powerful. 
 
-Adobe is the top company where I want to intern. I’m eager to learn and grow, and to make contributions to real products that impact users.
+Adobe is the top company where I want to intern. hI’m eager to learn and grow, and to make contributions to real products that impact users.
 
 ### Q: Which Adobe products have you used? 
 Answer: I’ve heard a lot about Adobe products, like Photoshop for image editing and Illustrator for vector design. The one I use most is Acrobat, to handle PDFs—especially for contracts and product documents. I’ve also tried new features, like Photoshop’s tool to fill in missing parts. I’d love to explore even more in the future!
