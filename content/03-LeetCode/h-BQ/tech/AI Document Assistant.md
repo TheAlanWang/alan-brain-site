@@ -2,21 +2,7 @@
 - Designed scalable architecture with **PostgreSQL**, and **JWT authentication**, ensuring secure and reliable request handling.
 - Containerized with **Docker**; deployed on **AWS EC2**; reduced latency 40% via caching + streaming.
 
-### Q: Why Adobe?
-I’m drawn to Adobe because it combines creativity and technology. The company **empowers everyone** to imagine, create, and bring digital experiences to life. The products are used by millions globally. 
-
-From my personal perspective, I worked closely with Adobe Acrobat in my previous role. And, recently tried Acrobat Studio incredibly, which I found useful and powerful. 
-
-Adobe is the top company where I want to intern. hI’m eager to learn and grow, and to make contributions to real products that impact users.
-
-### Q: Which Adobe products have you used? 
-Answer: I’ve heard a lot about Adobe products, like Photoshop for image editing and Illustrator for vector design. The one I use most is Acrobat, to handle PDFs—especially for contracts and product documents. I’ve also tried new features, like Photoshop’s tool to fill in missing parts. I’d love to explore even more in the future!
-
-### Q: Which Adobe product do you think could be improved, and how would you improve it?
-Answer: I think Adobe Acrobat could be improved, especially its PDF-to-Word conversion feature. As a frequent user, I’ve noticed that when converting PDFs with complex layouts, such as documents with many images, headings, or tables. The formatting often gets messed up in Word. 
-My suggestion is to enhance the OCR and layout recognition feature, so that the original structure and formatting are preserved more accurately.
-
-Q: What is the biggest challenge you have faced?
+### Q: What is the biggest challenge you have faced?
 **S (Situation)**  
 In my previous role, our company had an HR system, running on a single local machine, only HR manage it. But, as the company grew, too much manual works. It became a bottleneck and didn’t integrate with other internal systems like company workflow tools.
 **T (Task)**  
