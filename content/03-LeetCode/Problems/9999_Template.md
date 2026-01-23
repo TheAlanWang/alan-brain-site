@@ -19,7 +19,7 @@ Method 2
 
 ### Edge Case
 
-### Code        
+### Code
 ```python
 ```
 

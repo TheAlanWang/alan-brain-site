@@ -8,7 +8,7 @@
 
 ## `Dockerfile` Code
 ### Typical structure for Spring boot
-1) **Builder stage** (Maven + [[JDK vs JRE vs JAR#JDK|JDK]])
+1) **Builder stage** (Maven + [[JDK vs JRE vs JAR vs JVM#JDK|JDK]])
    - copy `pom.xml` first  
    - download dependencies (cached if `pom.xml` unchanged)  
    - copy `src/` and build JAR (`mvn package`)

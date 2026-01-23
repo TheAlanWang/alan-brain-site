@@ -1,3 +1,7 @@
+---
+tags:
+  - tech/aws
+---
 ## Setup requirements
 Install AWS command line interface
 ```bash
@@ -33,7 +37,7 @@ nano ~/.aws/credentials
 cat ~/.aws/credentials
 ```
 
-### ### Step 2: Create an ECR Repository
+### Step 2: Create an ECR Repository
 1. **Navigate to Amazon ECR:**
    - Go to AWS Console (from Learner Lab)
    - Search for "ECR" in the top search bar

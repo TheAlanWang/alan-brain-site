@@ -1,5 +1,5 @@
 - [[AWS CLI v2| AWS CLI v2 Practical Guide]]
-- [[Manual Deploy AWS ECS|Manual Deploy AWS via AWS CLI]]
+- [[AWS ECS Manual Deploy|Manual Deploy AWS via AWS CLI]]
 - [[Terraform Deploy AWS ECS|Terraform deploy AWS ECS]]
 ## Key Terms
 ### AWS CLI v2

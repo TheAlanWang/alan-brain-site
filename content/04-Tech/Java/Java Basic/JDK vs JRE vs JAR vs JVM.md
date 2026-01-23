@@ -20,3 +20,10 @@ A **JAR** is a **package file** (like a zip) that bundles compiled Java classes 
 ```bash
 java -jar app.jar
 ```
+
+### JVM
+JVM stands for **Java Virtual Machine**. It’s the runtime engine that **runs Java programs**.
+Here’s the typical pipeline:
+- You write `Hello.java`
+- The Java compiler (`javac`) compiles it into **bytecode**: `Hello.class`
+- The **JVM** loads and executes that bytecode on your machine
