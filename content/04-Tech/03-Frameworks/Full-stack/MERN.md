@@ -1,11 +1,10 @@
 # MERN - Must-Know Guide
 
 > MERN = **MongoDB + Express + React + Node.js**  
-> Goal: a practical checklist of what you must know to pass interviews and build real projects.
 
 ---
 
-## 0) MERN “What is what” (Don’t mix terms)
+## 0) MERN “What is what”
 
 - **MongoDB**: Database (NoSQL document store)
 - **Node.js**: Runtime (server-side JavaScript environment)
@@ -15,7 +14,7 @@
 
 ---
 
-## 1) JavaScript & TypeScript (Required foundation)
+## 1) JavaScript & TypeScript
 
 ### Must know (JS)
 - `let/const`, scope, closure

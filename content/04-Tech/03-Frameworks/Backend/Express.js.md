@@ -1,7 +1,4 @@
-# Express.js Mannual
-
-> 目标：用最短时间把 **Express** 的核心概念、常见代码模式、面试高频点全部掌握。  
-> Express = Node.js 上最常用的 **backend web framework**（后端 Web 框架）。
+> Express is the most commonly used backend web framework for Node.js.
 
 ---
 
