@@ -29,7 +29,6 @@ Create an AWS account (free tier is fine). You need *some* admin-level identity 
 
 ### B. Create an admin profile for bootstrapping (recommended)
 In the AWS Console:
-
 1. IAM → Users → Create user (example: `bootstrap-admin`)
 2. Attach policy: **AdministratorAccess**
 3. Create an **Access Key** for this user (Access key ID + Secret access key)

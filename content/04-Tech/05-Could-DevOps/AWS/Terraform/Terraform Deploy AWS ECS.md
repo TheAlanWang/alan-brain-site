@@ -270,23 +270,24 @@ container_port      = 8080
 **Note:** Make sure you are in the terraform-ecs folder when running terraform commands!
 
 1. **Initialize Terraform:**
-   ```bash
-   terraform init
-   ```
+```bash
+cd terraform-ecs
+terraform init
+```
    
    This downloads the AWS provider and prepares your working directory.
 
 2. **Validate configuration:**
-   ```bash
-   terraform validate
-   ```
+```bash
+terraform validate
+```
    
    Should return "Success! The configuration is valid."
 
 3. **Preview changes:**
-   ```bash
-   terraform plan
-   ```
+```bash
+terraform plan
+```
    
    This shows what Terraform will create without actually creating it.
 
