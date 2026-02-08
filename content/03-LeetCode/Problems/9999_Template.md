@@ -3,7 +3,7 @@ tags:
   - ds
 ---
 Link: 
-Track: NeetCode150
+Track: Amazon Tag
 # Question
 ### Restate the problem
 
@@ -16,7 +16,8 @@ Method 2
 (discussed at lease two approach?)
 
 ### Complexity
-
+- Time Complexity: 
+- Space Complexity: 
 ### Edge Case
 
 ### Code
@@ -25,3 +26,4 @@ Method 2
 
 ---
 # History
+- Jan-xx-2026 Peeked
