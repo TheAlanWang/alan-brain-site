@@ -19,7 +19,7 @@ Goal: Create an ECR repository in **us-west-1**, then tag and push a local Docke
 
 Successfully upload to ECR
 ### Step 1 — Create an ECR Repository (Console)
-![[Create_ECR_1.png|700]]
+![[pic_Create_ECR_1.png|700]]
 
 
 Repository URI: `646xxxx81354.dkr.ecr.us-west-1.amazonaws.com/cs6xxx/assignment1`
@@ -33,7 +33,7 @@ aws ecr describe-repositories \
 ```
 
 ### Step 3 — Authenticate Docker to ECR (Required)
-![[Create_ECR_3.png|600]]
+![[pic_Create_ECR_3.png|600]]
 This is required before `docker push`, otherwise you may see: `no basic auth credentials`
 ```bash
 aws ecr get-login-password --region us-west-1 | docker login \
