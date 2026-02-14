@@ -1,0 +1,3 @@
+- SLA (Service Level Agreement)
+	- It’s a formal promise (usually written in a contract) about the **minimum service quality** a provider will deliver
+	- like uptime, latency, and support response times.

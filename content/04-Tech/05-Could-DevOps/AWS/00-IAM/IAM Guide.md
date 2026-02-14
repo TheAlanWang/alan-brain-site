@@ -1,18 +1,15 @@
-
-列出你本机所有 profiles（= credential 列表入口)
+1) List all local AWS profiles (entry points to your credential list)
 ```bash
 aws configure list-profiles
 ```
 
-
-2) 删除某个 profile（手动删配置段）
+2) Remove a specific profile (manually delete its section)
 
 ```bash
 nano ~/.aws/credentials
 ```
 
-
-boto3 用这个 profile
+3) Use a specific profile in `boto3`
 ```python
 import boto3
 

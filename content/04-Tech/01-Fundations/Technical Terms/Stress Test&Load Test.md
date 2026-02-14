@@ -1,0 +1,5 @@
+- Stress Test
+	- Pushes beyond limits to find the **breaking point** and failure modes.
+- Load Test
+	- Load test validates SLA under expected peak load
+	- p95/p99 latency is within an acceptable range

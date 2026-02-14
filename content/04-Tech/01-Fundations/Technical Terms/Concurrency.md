@@ -1,5 +1,6 @@
-### What is Concurrency?
-Concurrency means multiple users or requests operating on the system at the same time. If not handled properly, it can cause issues like duplicate records or data being overwritten.
+- Concurrency Definition:
+	- means multiple users or requests operating on the system at the **same time**
+	- If not handled properly, it can cause issues like duplicate records or data being overwritten.
 
 ### Concurrency Errors & How to Solve (Clear Notes)
 #### 1) Duplicate Creation
