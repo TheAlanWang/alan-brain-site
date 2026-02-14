@@ -1,0 +1,8 @@
+- OLAP (Online Analytical Processing)
+	- For analytics/reporting
+		- large scans, `GROUP BY`, aggregates, trend analysis (read-heavy)
+	- Example: snowflake
+- OLTP (Online Transaction Processing)
+	- For daily transactions
+		- many small `INSERT/UPDATE/DELETE`, high concurrency, low latency (write-heavy), often [[ACID]]
+	- Example: PostgreSQL

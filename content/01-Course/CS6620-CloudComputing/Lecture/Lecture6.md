@@ -1,0 +1,6 @@
+- SQL vs Non SQL
+- OLDP vs OLAP
+- DynamoDB stream
+- DB shading
+	- cardinality data
+- DB replication
