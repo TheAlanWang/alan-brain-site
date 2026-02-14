@@ -18,7 +18,6 @@ Q: How to get better responses?
 Q: When no to RAG?
 - If the main goal is strict output schema (JSON), stable tone, or a fixed template, prompting or fine-tuning is usually better.
 
-
 Q: How we find relevant chunks? Retrieval
 **Lexical Search (keyword-based):** matches query terms with documents and ranks by term overlap.
  - TF-IDF (Term Frequency – Inverse Document Frequency) 
